@@ -1,0 +1,6 @@
+private int sum(int a, int b) throws Exception{
+      if ((a+b) > INTERGER.MAX){
+	  throw new Exception();
+	  }
+      return a+b;
+}
